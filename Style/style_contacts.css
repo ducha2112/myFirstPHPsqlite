@@ -1,0 +1,21 @@
+.contacts{
+
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    /*flex-wrap: wrap;*/
+    /*gap: 10px;*/
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.contacts a,.contacts strong{
+
+    display: block;
+}
+.nets{
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}

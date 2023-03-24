@@ -1,0 +1,333 @@
+*{
+   text-decoration-line: none;
+
+   }
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html, body{
+    height: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    min-height: 100vh;
+    width:1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+   a{
+    color: black;
+   }
+   ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 5px; 
+  }
+  .header{
+    border: rgb(3, 156, 52) 3px;
+  }
+
+   .logo{
+    width: 375px;
+   }
+.container{
+    background-color:rgb(235, 239, 239) ;
+    width: 1200px;
+
+}
+   nav{
+       margin-right: 20px;
+    line-height: 30px;
+   }
+   /*@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');*/
+   .menu-main{
+    display: flex;
+       flex-wrap: wrap;
+    justify-content: end;
+    gap: 10px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+   }
+   .menu-main li{
+    position: relative;
+    width: auto;
+   }
+   .menu-main li:hover .submenu {
+    display: block;
+    width: 230px;
+}
+   .submenu{
+    position: absolute;
+    display: none;
+   background-color: rgb(235, 239, 239);
+
+   }
+
+   nav a:link{
+    color: black;
+   }
+   nav a:visited{
+       color: rgb(37, 165, 216);
+   }
+   nav a:hover{
+    color: rgb(34, 153, 72);
+   }
+
+   .logo h1{
+    margin: 0;
+       font-family: 'Comforter' ;
+       font-size: 40px;
+       color: black;
+       text-shadow:  rgb(117, 160, 48);
+   }
+.logo h2{
+    font-family: 'Comforter' ;
+    font-size: 30px;
+    color: black;
+    text-shadow:  rgb(117, 160, 48);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+   .middle{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+       flex-wrap: wrap;
+       gap: 10px;
+   }
+
+   .right{
+       margin: 10px;
+    width: 125px;
+    display: flex;
+ flex-direction: column;
+       gap: 5px;
+   }
+   .contacts{
+       margin: 30px;
+       padding: 10px;
+       font-size: 20px;
+   }
+.contacts a,.contacts strong{
+    margin: 10px;
+}
+   .nets{
+
+ 
+       width: 175px;
+       text-align: center;
+       font-family: 'Ubuntu Condensed', sans-serif;
+       font-size: 20px;
+       margin-top: 10px;
+       margin-left: -33px;
+   }
+   .vk:before {
+    content: url(./images/VK.jpg) ;
+    display: inline-block;
+
+    }
+    .youtube-play:before {
+        content: url(./images/youtube.jpg) ;
+        display: inline-block;
+       }
+        .recall{
+            width: 175px;
+            text-align: center;
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 20px;
+            background-color: rgb(196, 223, 154);
+            border: solid black;
+            border-width: thin;
+
+            margin-top: 10px;
+            margin-left: -33px;
+
+        }
+        .recall a{
+         font-size: large;
+        }
+        .phone:before {
+            content: url(./images/tel.jpg) ;
+            display: inline-block;
+
+            }
+            .phone a{
+                font-size: 20px;
+
+            }
+            .phones{
+                font-family: 'Ubuntu Condensed', sans-serif;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .whatsapp:before {
+                content: url(./images/whatsapp-logo.jpg) ;
+                display: inline-block;
+
+
+                }
+                .email:before {
+                    content: url(./images/email.jpg) ;
+                    display: inline-block;
+
+
+            }
+         .map:before {
+            content: url(./images/map.jpg) ;
+         display: inline-block;
+
+
+         }
+         main{
+            flex: 1 1 auto;
+         }
+         .cabinet{
+             font-family: 'Ubuntu Condensed', sans-serif;
+             font-size: 20px;
+             text-align: center;
+             color: #131a13;
+             width: 120px;
+         }
+.cabinet h3{
+    margin-left: 10px;
+}
+.tous{
+    width: 175px;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    background-color: rgb(117, 160, 48);
+    border: ridge black;
+    border-width: thin;
+    /*border-radius: 30px;*/
+    margin-top: 10px;
+    margin-left: -33px;
+}
+.tous:hover{
+    background-color: #800055;
+    border: 5px ridge yellow;
+    border-radius: 15px;
+}
+
+.tous a{
+    color:white ;
+
+}
+.tous a:hover{
+    color:green ;
+}
+
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.slogan1{
+    margin: 5px 5px 5px 40px;
+    color: #153915;
+}
+.slogan2{
+    margin: 5px 5px 5px 300px;
+    color: #153915;
+}
+.slogan3{
+    margin: 5px 5px 5px 500px;
+    color: #153915;
+}
+.picture{
+    margin: 5px;
+    width: 800px;
+    height: 375px;
+}
+#img_1,#img_2,#img_3,#img_4,#img_5,#img_6{
+    height: 350px;
+    width: 1200px;
+}
+.pic img{
+    width: 1200px;
+}
+.tapiau_img {
+    margin: 0 auto;
+    width: 1200px;
+}
+tapiau_img img{
+    width: 1200px;
+}
+
+@keyframes changeColor {
+    from{
+        color: #003c80;
+    } to{
+    color: #153915;
+          }
+}
+#text1,#text2,#text3,#text4,#text5,#text6{
+    animation: changeColor 6s infinite alternate;
+}
+#img_1,#text2,#text3{
+    font-size: large;
+}
+#text4,#text5,#text6 {
+    font-size: 25px;
+}
+
+h1,h2,h3,p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: 80px;
+}
+p{
+    text-indent: 30px;
+    font-size:20px;
+}
+.content{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content h1, .content h2{
+    position: relative;
+    z-index: 2;
+}
+
+.text{
+    width: 1200px;
+
+}
+.text h1, .text h2{
+    margin: 10px 0 10px 200px;
+    color: #131a13;
+    font-size: 40px;
+}
+.text img{
+    width: 500px;
+    display: block;
+}
+.text img:hover{
+    width: 1200px;
+}
+.data{
+    line-height: 30px;
+    background-color: rgb(235, 239, 239);
+    text-align: center;
+}
+.data span{
+    font-size: 20px;
+    color: #131a13;
+}
+main a,footer a{
+    font-size: 20px;
+    color: #131a13;
+}
+#ins{
+    height: 20px;
+    color: red;
+    margin-left: -12px;
+}
