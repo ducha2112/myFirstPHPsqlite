@@ -9,6 +9,9 @@
     margin: 0;
     border: 0;
 }
+body {
+    background: #efe8ed;
+}
 .top{
     display: flex;
     justify-content: space-between;

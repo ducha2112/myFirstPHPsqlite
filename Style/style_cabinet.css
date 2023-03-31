@@ -1,4 +1,6 @@
-
+body {
+    background: #efe8ed;
+}
 main{
     text-align: center;
     position: relative;

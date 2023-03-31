@@ -11,6 +11,9 @@
 html, body{
     height: 100%;
 }
+body {
+    background: #efe8ed;
+}
 .wrapper{
     margin: 0 auto;
     min-height: 100vh;

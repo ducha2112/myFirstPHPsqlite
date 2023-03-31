@@ -214,7 +214,7 @@ function show_form( $errors = [], $input = [] ){
           
    <div class="wrap">
         <img src="./images/img_11.png">
-  
+        
       <section class="sec-2">
       <h1>Регистрация</h1>
       <div>
@@ -246,6 +246,7 @@ function show_form( $errors = [], $input = [] ){
         </form>
         
       </div>
+      <a href="index.php">На главную страницу</a>
        </section>
    </div>
          

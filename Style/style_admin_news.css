@@ -14,6 +14,9 @@ html, body{
     background-color: #be856d;
     text-align: center;
 }
+body {
+    background: #efe8ed;
+}
 
 /*@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');*/
 .wrapper{

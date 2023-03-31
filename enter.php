@@ -176,7 +176,9 @@ function show_form( $errors = [], $input = [] ){
             
           
       </div>
+      <a href="index.php">На главную страницу</a>
        </section>
+       
    </div>
          
           <script src="script.js"></script>  

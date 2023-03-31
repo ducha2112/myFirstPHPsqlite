@@ -10,6 +10,9 @@
 html, body{
     height: 100%;
 }
+body {
+    background: #efe8ed;
+}
 
 /*body {*/
 /*    !* border: 2px solid black; *!*/
@@ -63,6 +66,8 @@ form  button, button a {
     background-color: rgb(117, 160, 48);
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+    font-size: 15px;
+
 }
 form {
 
@@ -80,6 +85,7 @@ form {
 h1{
     color: #152d15;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 .data{
     line-height: 30px;
@@ -91,4 +97,10 @@ h1{
 }
 .data span{
     font-size: 20px;
+}
+
+a{
+    color: #333;
+    font-size: 20px;
+    margin-top: 20px;
 }

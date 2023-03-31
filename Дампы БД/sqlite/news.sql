@@ -1,5 +1,5 @@
 CREATE TABLE `news` (
-                        `id` PRIMARY KEY ASC  NOT NULL ,
+                        `id`INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE ,
                         `category` varchar(255) NOT NULL,
                         `title` varchar(255) NOT NULL,
                         `short_text` varchar(255) NOT NULL,
